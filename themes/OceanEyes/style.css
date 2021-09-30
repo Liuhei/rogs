@@ -757,7 +757,7 @@ h2.category-title-category a {
 #fp-intro-wrap {
     display: flex;
     margin: 0 0 50px;
-    height: 400px;
+    height: 450px;
     background: #01adb9;
 }
 .fp-intro-left {
@@ -821,6 +821,7 @@ h2.category-title-category a {
     height: auto;
 }
 .fp-intro-title {
+    margin: 0 0 30px;
     font-size: 35px;
     color: #fff;
     font-weight: 600;
@@ -1149,6 +1150,15 @@ h2.category-title-category a {
     }
     #fp-posts-wrap {
         width: 100%;
+    }
+    #fp-intro-wrap{
+        height: 550px;
+    }
+    .fp-intro-title {
+        font-size: 31px;
+    }
+    .fp-intro-content {
+        font-size: 17px;
     }
 }
 @media only screen and (max-width: 600px){
